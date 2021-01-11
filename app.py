@@ -11,7 +11,7 @@ from feature import *
 
 app = Flask(__name__)
 
-model = load_model('test.h5')
+model = load_model('fakenewspred.h5')
 
 
 @app.route('/', methods=['GET'])
